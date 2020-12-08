@@ -9,3 +9,11 @@
 ## Startup.cs
 
 - attribute based routing
+
+## Shared folder
+
+- includes layout
+
+## Todos
+
+- add in a [HttpGet()] call, initally just have it return a thing

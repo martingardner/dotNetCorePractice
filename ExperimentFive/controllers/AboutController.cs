@@ -6,5 +6,11 @@ namespace ExperimentFive.Controllers
     {
         [Route("About")]
         public IActionResult Index() => View();
+
+        [HttpGet("GetData")]
+        public IActionResult GetData()
+        {
+            return "42";
+        }
     }
 }

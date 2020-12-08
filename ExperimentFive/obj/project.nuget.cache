@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "KmRAo7RdUoHZkaUb8yFdGZ8hhAzlcRGRf+9znxQCF0OVpaYm2cfVBGZCd9cXAv+jfEIJJAUnpgR+JBJYwL/kbw==",
-  "success": true,
+  "dgSpecHash": "U26y1c6wd1FyVBbL+4T+y2aVgCCqnV0FAWpHqwzTTes0JRRS614ziWJed9eQ1KOPD7IZTu6UCAs19cHAPkrXlA==",
+  "success": false,
   "projectFilePath": "C:\\git-repositories\\dotNetCorePractice\\ExperimentFive\\ExperimentFive.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package System.Text.Json. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
