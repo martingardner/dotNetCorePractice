@@ -12,4 +12,6 @@
 - ExperimentOne is `dotnet new webapp` - visually looks very similar to experimenttwo
 - ExperimentTwo is `dotnet new razor` - visually looks very similar to experimentone
 - ExperimentThree is `dotnet new mvc` - controller part is similar to work, though it looks like it combines multiple pages in one controller and then there is an additional layer of controller code in the pages section instead of the controller., need to figure out where the work [Route("History")] coorelates in this.
+- - edit:: found answer, that is attribute routing syntax, and in Startup.cs the routing would need to be switched from conventional to attribute.
 - ExperimentFour is `dotnet new web`
+- ExperimentFive, going to create another `dotnet new web` and want to experiment with manually adding in attribute based routing to it and see if I can get it to render.
