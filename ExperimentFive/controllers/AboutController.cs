@@ -8,9 +8,11 @@ namespace ExperimentFive.Controllers
         public IActionResult Index() => View();
 
         [HttpGet("GetData")]
-        public IActionResult GetData()
-        {
-            return "42";
-        }
+        public string GetData() => "42";   
+
+        [HttpGet("AddAndReturn")]   
+        public int AddAndReturn(
+            [FromQuery] int number1, int number2
+        )  => number1 + number2;
     }
 }

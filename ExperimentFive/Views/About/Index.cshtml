@@ -5,6 +5,22 @@
 
 <h1>About Page</h1>
 
+
 @section Scripts {
-    <script src="~/js/about.js"></script>
+    <!--
+    <script type="text/javascript" src="~/js/about.js"></script>
+
+    -->
+    <script>
+        window.onload = function(){
+
+            fetch('http://localhost:5000/GetData')
+            .then(response => response.json() )
+            .then(data => console.log('GetData', data));
+
+            fetch('http://localhost:5000/AddAndReturn?number1=4&number2=6')
+            .then(response => response.json() )
+            .then(data => console.log('AddAndReturn', data));
+        }
+    </script>
 }

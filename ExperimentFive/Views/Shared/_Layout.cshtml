@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-    </head>
-    <body>
-        <div>
-            --- Render Body call ---
-            @RenderBody()
-        </div>
-    </body>
+<head>
+
+</head>
+
+<body>
+    <div>
+        --- Render Body call ---
+        @RenderBody()
+    </div>
+    @RenderSection("Scripts", required: false)
+</body>
+
 </html>
