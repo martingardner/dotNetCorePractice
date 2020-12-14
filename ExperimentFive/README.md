@@ -16,4 +16,4 @@
 
 ## Todos
 
-- add in a [HttpGet()] call, initally just have it return a thing
+- figure out
