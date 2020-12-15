@@ -31,3 +31,4 @@ C:\git-repositories\dotNetCorePractice\ExperimentFive\obj\Debug\netcoreapp3.1\Ex
 C:\git-repositories\dotNetCorePractice\ExperimentFive\obj\Debug\netcoreapp3.1\ExperimentFive.genruntimeconfig.cache
 C:\git-repositories\dotNetCorePractice\ExperimentFive\obj\Debug\netcoreapp3.1\ExperimentFive.csproj.CopyComplete
 C:\git-repositories\dotNetCorePractice\ExperimentFive\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\git-repositories\dotNetCorePractice\ExperimentFive\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
