@@ -47,10 +47,17 @@ namespace ExperimentFive.Controllers
         }
     }
 
-    public class cat
+    public class cat : ICat
     {
         public string color { get; set; }
         public string gender { get; set; }
         public string name { get; set; }
     }
+}
+
+public interface ICat
+{
+    string color  {get; set;}
+    string gender {get; set;}
+    string name   {get; set;}
 }
